@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.licenses = ['MIT']
 
   spec.add_dependency 'faraday', ['>= 0.7.4', '< 1.0']
+  spec.add_dependency 'safe_yaml'
 
   spec.files = `git ls-files -z lib LICENSE.md README.md`.split("\0")
 end
