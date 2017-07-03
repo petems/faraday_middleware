@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'faraday_middleware/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'faraday_middleware'
+  spec.name = 'faraday_middleware_safeyaml'
   spec.version = FaradayMiddleware::VERSION
 
-  spec.summary = %q{Various middleware for Faraday}
+  spec.summary = %q{Various middleware for Faraday - forked to fix security issue (Waiting on https://github.com/lostisland/faraday_middleware/pull/157)}
   spec.authors = ["Erik Michaels-Ober", "Wynn Netherland"]
   spec.email = ['sferik@gmail.com', 'wynn.netherland@gmail.com']
   spec.homepage = 'https://github.com/lostisland/faraday_middleware'

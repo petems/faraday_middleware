@@ -1,9 +1,13 @@
-Faraday Middleware
+Faraday Middleware SafeYAML
 ==================
+
+Fork of Faraday Middleware with the `Yaml.load` vulnerability fixed.
+
+Can switch back to upstream when https://github.com/lostisland/faraday_middleware/pull/157 merged.
 
 A collection of useful [Faraday][] middleware. [See the documentation][docs].
 
-    gem install faraday_middleware
+    gem install faraday_middleware_safeyaml
 
 Dependencies
 ------------
